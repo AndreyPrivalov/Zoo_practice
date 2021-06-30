@@ -42,9 +42,20 @@
                         </button>
                     </div>
                 </a>
-                <div class="data">
+                <div class="data" onclick="document.getElementById('target').style.display='block'">
                     <span>График</span>
                 </div>
+                <div class="target" id="target">
+                    <div class="card_header">Без выходных</div>
+                    <img src="img/Icons/Close.svg" onclick="document.getElementById('target').style.display='none'">
+                    <div class="graph">
+                        <span>Продажа билетов</span><br>
+                        7:00 – 17:00<br>
+                        <span>Осмотр экспозиции</span><br>
+                        7:00 – 18:00
+                    </div>
+                </div>
+
                 <a target="_blank" href="https://www.youtube.com/watch?v=Q6itbtAhKY0">
                     <div class="video">
                         <div class="video_text">

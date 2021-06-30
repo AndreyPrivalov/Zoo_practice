@@ -465,3 +465,55 @@ footer .content {
 .copyright span {
     line-height: 24px;
 }
+
+.target {
+    width: 360px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    position: absolute;
+    left: 420px;
+    z-index: 100;
+    font-family: Yeseva One;
+    font-size: 48px;
+    line-height: 48px;
+    color: #4B0C3B;
+    padding-left: 85px;
+    display: none;
+}
+
+.card_header {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #4B0C3B;
+    font-family: Lato;
+    transform: rotate(-90deg);
+    position: relative;
+    right: 220px;
+    top: 18px;
+}
+
+.target span {
+    font-family: lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.graph {
+    position: relative;
+    bottom: 5px;
+}
+
+.target img {
+    position: absolute;
+    z-index: 120;
+    left: 380px;
+    transform: scale(0.8);
+    cursor: pointer;
+
+}
