@@ -410,3 +410,58 @@ main {
     margin-top: 90px;
     margin-bottom: 90px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 420px;
+    width: 1920px;
+    background-color: #012F16;
+    margin-top: 90px;
+}
+
+footer div a {
+    display: block;
+    margin-top: 20px;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+footer div a:hover {
+    opacity: 0.6;
+}
+
+footer .content {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.linkblock1 {
+    width: 420px;
+}
+
+.linkblock2 {
+    width: 320px;
+}
+
+.linkblock3 {
+    width: 315px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 16px;
+    line-height: 44px;
+    font-family: lato;
+}
+
+.linkblock4 {
+    width: 315px;
+}
+
+.copyright span {
+    line-height: 24px;
+}
