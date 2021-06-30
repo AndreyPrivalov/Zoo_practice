@@ -1,3 +1,19 @@
+nav a:hover {
+    opacity: 0.7;
+}
+
+a button:hover {
+    box-shadow: none;
+}
+
+a div {
+    cursor: pointer;
+}
+
+.right-header a button:hover {
+    box-shadow: none;
+}
+
 body {
     font-family: lato;
     margin: 0px;
@@ -49,6 +65,19 @@ nav a {
     margin-right: 50px;
 }
 
+.subtext {
+    border-left: solid 2px #fff;
+    padding: 0px 0px 0px 30px;
+}
+
+h4 {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+    margin: 50px 0px 7px 0px;
+}
+
 nav {
     margin-top: 50px;
 }
@@ -58,6 +87,8 @@ nav {
     flex-direction: column;
     width: 1650px;
 }
+
+
 
 .right-header {
     font-weight: medium;
@@ -73,4 +104,120 @@ nav {
     background-color: #FFFFFF;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4), 0px 1px 3px rgba(0, 0, 0, 0.2);
     border-radius: 40px;
+}
+
+.right-header:before {
+    content: url(img/Icons/Vector-1.svg);
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+h1 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 120px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+    margin: 50px 0px 7px 0px;
+}
+
+.text_block {
+    width: 753px;
+}
+
+.text_block p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: lato;
+    font-weight: 500;
+    color: #E7E7E7;
+    width: 415px;
+}
+
+.action_bar {
+    margin-top: 26px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+}
+
+.action_bar button {
+    color: #fff;
+    background-color: #4B0C3B;
+    width: 306px;
+    height: 60px;
+    margin-top: 12px;
+}
+
+.map span {
+    display: block;
+    margin-left: 20px;
+    color: #E7E7E7;
+    font-size: 18px;
+}
+
+.data {
+    display: inline-block;
+    font-family: Lato;
+    text-transform: uppercase;
+    margin-top: 35px;
+    letter-spacing: 0.2em;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.data span {
+    border-bottom: 2px dashed #FFFFFF;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.data span:hover {
+    border-bottom: 2px dashed rgba(255, 255, 255, 0);
+}
+
+.data:before {
+    content: url(img/Icons/Calendar.svg);
+    margin-right: 10px;
+}
+
+
+.video:before {
+    content: url(img/Icons/Play.svg);
+    margin-right: 15px;
+}
+
+.video_text {
+    display: inline-block;
+}
+
+.video_text {
+    position: relative;
+    bottom: 9px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7E7E7;
+}
+
+.video {
+    margin-top: 35px;
+    height: 64px;
+}
+
+.video_text span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
 }
