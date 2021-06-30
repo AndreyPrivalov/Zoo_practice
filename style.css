@@ -377,3 +377,36 @@ main {
     display: flex;
 
 }
+
+.image_grid {
+    display: flex;
+
+}
+
+.col-5 {
+    margin-left: 30px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.col-5 img {
+    width: 495px;
+    height: 285px;
+    margin-right: 30px;
+
+}
+
+.gallery p {
+    position: relative;
+    bottom: 20px;
+    right: 15px;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
